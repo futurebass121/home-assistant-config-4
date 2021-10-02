@@ -8,7 +8,7 @@ end = "#- from github.com/basnijholt/home-assistant-config\n"
 
 def remove_text(content):
     do_append = True
-    new = []
+    new = []AZAZAZAZAZAZAZAZ
     for line in content:
         if start in line:
             do_append = not do_append
