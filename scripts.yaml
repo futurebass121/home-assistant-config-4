@@ -1,14 +1,4 @@
-start_speakers:
-  alias: Start speakers
-  description: Start a Spotify playlist on KEF speakers
-  fields:
-    volume:
-      description: Volume at which to play
-      example: '0.3'
-    source:
-      description: Which source to use on the speakers
-      example: Wifi
-  sequence:
+
   - service: media_player.turn_on
     entity_id: media_player.kef_ls50
   - service: media_player.select_source
